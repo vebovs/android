@@ -3,4 +3,5 @@
     <string name="nameText">Name</string>
     <string name="dateBox">Birth date</string>
     <string name="enterBtn">Enter</string>
+    <string name="edit">Edit</string>
 </resources>

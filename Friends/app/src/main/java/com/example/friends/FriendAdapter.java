@@ -36,7 +36,7 @@ public class FriendAdapter extends BaseAdapter {
         TextView tv;
         if(view == null){
             tv = new TextView(this.context);
-            tv.setText(this.friends[i].getName());
+            tv.setText(this.friends[i].getName() + " born " + this.friends[i].getBirthdate());
         } else {
             tv = (TextView) view;
         }

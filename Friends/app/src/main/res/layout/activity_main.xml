@@ -59,17 +59,40 @@
         <Button
             android:id="@+id/enterBtn"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
+            android:layout_height="wrap_content"
+            android:onClick="addFriend"
             android:text="@string/enterBtn" />
 
-        <TextView
-            android:id="@+id/viewDetails"
+        <LinearLayout
+            android:id="@+id/editLayout"
             android:layout_width="match_parent"
-            android:layout_height="100dp" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <Spinner
-            android:id="@+id/spinner"
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/editBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridView"
             android:layout_width="match_parent"
-            android:layout_height="394dp" />
+            android:layout_height="379dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

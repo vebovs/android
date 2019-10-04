@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="norway">Flag of Norway</string>
+    <string name="next">Next</string>
+    <string name="last">Last</string>
+    <string-array name="titles">
+        <item>Norway</item>
+        <item>Sweden</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+    </string-array>
+    <string-array name="description">
+        <item>Flag of Norway</item>
+        <item>Flag of Sweden</item>
+        <item>Flag of Denmark</item>
+        <item>Flag of Finland</item>
+    </string-array>
+</resources>

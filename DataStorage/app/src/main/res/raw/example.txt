@@ -1,0 +1,7 @@
+Bud Kurniawan,Android Application Development: A Beginners Tutorioal
+Mildrid Ljosland,Programmering i C++
+Else Lervik,Programmering i C++
+Mildrid Ljosland,Algoritmer og datastrukturer
+Helge Hafting,Algoritmer og datastrukturer
+Rubl,Plastics with Rubl
+Karuru,Cooking with Karuru
